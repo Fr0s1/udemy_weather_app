@@ -65,10 +65,6 @@ app.get('/weather', (req, res) => {
     })
 })
 
-app.get('/products', (req, res) => {
-
-})
-
 app.get('/help/*', (req, res) => {
     res.render('404-page', {
         title: '404',
