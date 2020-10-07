@@ -1,5 +1,3 @@
-console.log('Loaded')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('form > input')
 const locationName = document.querySelector('#location')
